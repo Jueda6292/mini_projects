@@ -9,14 +9,14 @@ Create a Flask application that allows users to interact with a set of data stor
 Minimum Requirements
 Decide what kind of data you want the application to manage. Examples include music collections, cars, recipes, investments, budget items, work request tickets, etc.
 
-Each record should have 3-5 fields of data
-Create a csv file with specific columns and a few rows as "seed" data for use while developing
+* Each record should have 3-5 fields of data
+* Create a csv file with specific columns and a few rows as "seed" data for use while developing
 
-This route should accept a POST request with the new data in JSON format
-This route does not require an HTML template
+* This route should accept a POST request with the new data in JSON format
+* This route does not require an HTML template
 
-Be sure to test your route using Insomnia
-Make sure the newly added data is visible when you visit the index route and the show route for that particular new record
+* Be sure to test your route using Insomnia
+* Make sure the newly added data is visible when you visit the index route and the show route for that particular new record
 Add a delete route that allows users to delete a certain record (as specified by an id)
 This route should accept a DELETE request
 This route does not require an HTML template
