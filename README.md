@@ -42,7 +42,7 @@ For example, quantities should be integers, not strings
 
 The status code typically used to indicate this sort of situation is 422 - Unprocessable Entity
 
-General Hints
+# General Hints
 
 We've emphasized the importance of data types and recognizing the type of data you're working with. Be very aware at all times what kind of data you are dealing with at any moment. Is it a string? An integer? A dictionary? A list?
 For the delete and update routes, beware that these routes are much more difficult to implement along with synchronizing data to a csv file
